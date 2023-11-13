@@ -1,0 +1,217 @@
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+
+  #mySidenav a:hover {
+    left: 0;
+  }
+
+  #Home {
+    top: 20px;
+    background-color: gray;
+  }
+
+  #blog {
+    top: 80px;
+    background-color: rgb(230, 201, 86);
+  }
+
+  #about {
+    top: 140px;
+    background-color: grey;
+  }
+
+  #regal {
+    top: 200px;
+    background-color: rgb(230, 201, 86);
+  }
+
+  #gal{
+    top: 260px;
+    background-color: grey;
+  }
+
+  body {
+    background-image: url('9178408C-.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transform: translate(588.5px, -325px);
+}
+
+#search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgb(230, 201, 86);
+    color: white;
+    border: 1px solid rgb(230, 201, 86);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button:hover {
+    background-color: rgb(230, 201, 86);
+}
+
+html{
+    background-color: #000000;
+}
+.body{
+    text-align: center;
+    max-width: 960px;
+    margin-left: 17%;
+}
+
+/* CSS for Navbar */
+body nav ul li img{
+    width: 75px;
+    height: 55px;
+    float: left;
+}
+nav {
+    border-radius: 20px;
+    margin-bottom: 6rem;
+    position: relative;
+    top: 7px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    width: 960px;
+    padding: 10px;
+    margin: 0; 
+    text-align:justify;
+    border-radius: 20px;
+}
+ul {
+    width: 960px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+
+
+/* Video */
+
+.first_h1{
+    text-align: center;
+}
+/*Images */
+.second_h1{
+    top: 50px;
+    text-align: center;
+    position: relative;
+
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr [one] 1fr[two] 1fr[three] 1fr[four];
+    grid-template-columns: 1fr[first] 1fr[second] 1fr[third] 1fr[fourth];
+    position: relative;
+    gap: 10px;
+    left: -140px;
+    top: -200px;
+}
+img {
+    height: 250px;
+    width: 300px;
+
+}
+.pic1{
+    grid-row: one/two;
+    grid-column: first/second;
+    width:100%;
+}
+.pic2{
+    grid-row: one/two;
+    grid-column:second/third;
+    width:100%;
+}
+.pic3{
+    grid-row: one/two;
+    grid-column: third/fourth;
+    width:100%;
+}
+.pic4{
+    grid-row: two/three;
+    grid-column: first/second;
+    width:100%;
+}
+.pic5{
+    grid-row:two/three;
+    grid-column: second/third;
+    width:100%;
+}
+.pic6{
+    grid-row: two/three;
+    grid-column: third/fourth;
+    width:100%;
+}
+.pic7{
+    grid-row: three/four;
+    grid-column: first/second;
+    width:100%;
+}
+.pic8{
+    grid-row: three/four;
+    grid-column:second/third;
+    width:100%;
+}
+.pic9{
+    grid-row: three/four;
+    grid-column: third/fourth;
+    width:100%;
+}
