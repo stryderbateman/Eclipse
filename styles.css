@@ -1,0 +1,92 @@
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+
+  #mySidenav a:hover {
+    left: 0;
+  }
+
+  #Home {
+    top: 20px;
+    background-color: gray;
+  }
+
+  #blog {
+    top: 80px;
+    background-color: rgb(230, 201, 86);
+  }
+
+  #about {
+    top: 140px;
+    background-color: grey;
+  }
+
+  #regal {
+    top: 200px;
+    background-color: rgb(230, 201, 86);
+  }
+
+  #gal{
+    top: 260px;
+    background-color: grey;
+  }
+
+  body {
+    background-image: url('9178408C-.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transform: translate(588.5px, -325px);
+}
+
+#search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#search-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgb(230, 201, 86);
+    color: white;
+    border: 1px solid rgb(230, 201, 86);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button:hover {
+    background-color: rgb(230, 201, 86);
+}
+
+
+
+
+
