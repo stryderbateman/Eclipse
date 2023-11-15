@@ -40,7 +40,7 @@
   }
 
   body {
-    background-image: url('9178408C-.jpg');
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -176,12 +176,12 @@ img {
     width:100%;
 }
 .pic2{
-    grid-row: one/two;
+    grid-row: two/three;
     grid-column:second/third;
     width:100%;
 }
 .pic3{
-    grid-row: one/two;
+    grid-row: three/four;
     grid-column: third/fourth;
     width:100%;
 }
